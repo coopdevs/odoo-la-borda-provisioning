@@ -1,0 +1,9 @@
+[production]
+laborda.coopdevs.org
+
+[dev]
+local.odoo-laborda.coop
+
+[odoo_servers:children]
+dev
+production
