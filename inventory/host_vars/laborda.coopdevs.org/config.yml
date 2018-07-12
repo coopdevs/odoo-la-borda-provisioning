@@ -1,19 +1,14 @@
 ---
-# In development environment a user with same name as your system user will be created
-development_user: "{{ lookup('env', 'USER') }}"
-
 system_administrators:
-  - name: odoo
-    ssh_key: "~/.ssh/id_rsa.pub"
+  - name: daniel
+    ssh_key: "../pub_keys/daniel.pub"
     state: present
-  - name: "{{ development_user }}"
-    ssh_key: "~/.ssh/id_rsa.pub"
+  - name: enrico
+    ssh_key: "../pub_keys/enrico.pub"
     state: present
 
-developers: []
-
-# Let's Encrypt conf
-certificate_authority_email:
+# Let's Encrypt
+certificate_authority_email: "info@coopdevs.org"
 
 # Set 'development_environment' to "true" to skip SSL and nginx tasks
-development_environment: true
+development_environment:
