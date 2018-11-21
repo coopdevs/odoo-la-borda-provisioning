@@ -1,6 +1,7 @@
 ---
 odoo_user: odoo
 odoo_edition: oca
+odoo_role_odoo_release: 20180710
 odoo_core_modules: "base,l10n_es,account,project,analytic,sale"
 odoo_db_name: odoo
 
