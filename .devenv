@@ -3,3 +3,4 @@ DISTRIBUTION="ubuntu"
 RELEASE="xenial"
 ARCH="amd64"
 HOST="local.$NAME.coop"
+PYTHON_INTERPRETER=python3
