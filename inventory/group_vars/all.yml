@@ -9,8 +9,9 @@ odoo_community_modules: "account,account_analytic_default,account_asset,account_
 
 odoo_db_name: LaBorda
 
-# Use correct python2.7 interpeter
 ansible_python_interpreter: "/usr/bin/python3"
+
+backups_role_enabled: false
 
 # Nginx configuration
 nginx_configs:
