@@ -36,6 +36,7 @@ odoo11-addon-mail-tracking-mailgun==11.0.1.0.3
 odoo11-addon-mass-editing==11.0.1.0.0
 odoo11-addon-mis-builder==11.0.3.2.2
 odoo11-addon-password-security==11.0.1.1.0
+odoo11-addon-product-pricelist-supplierinfo==11.0.1.1.0.99.dev5
 odoo11-addon-project-task-default-stage==11.0.1.0.0
 odoo11-addon-report-xlsx==11.0.1.0.2
 odoo11-addon-sale-order-invoicing-finished-task==11.0.1.0.0

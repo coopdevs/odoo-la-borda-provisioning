@@ -3,11 +3,11 @@
 development_user: "{{ lookup('env', 'USER') }}"
 
 system_administrators:
-  - name: odoo
-    ssh_key: "~/.ssh/id_rsa.pub"
+  - name: daniel
+    ssh_key: '{{ inventory_dir }}/../files/keys/daniel.pub'
     state: present
-  - name: "{{ development_user }}"
-    ssh_key: "~/.ssh/id_rsa.pub"
+  - name: enrico
+    ssh_key: '{{ inventory_dir }}/../files/keys/enrico.pub'
     state: present
 
 developers: []
