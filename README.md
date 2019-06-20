@@ -16,3 +16,4 @@ This repository stores hosts informations and related variables for this specifi
    ```
    ansible-playbook playbooks/provision.yml -i ../odoo-la-borda-provisioning/inventory/hosts --ask-vault-pass --limit=dev
    ```
+5. Visit http://local.odoo-laborda.coop:8069 and log in with user `admin` and password `admin`
