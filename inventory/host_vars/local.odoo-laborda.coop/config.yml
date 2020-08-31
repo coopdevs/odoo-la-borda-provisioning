@@ -9,6 +9,9 @@ system_administrators:
   - name: enrico
     ssh_key: '{{ inventory_dir }}/../files/keys/enrico.pub'
     state: present
+  - name: cesar
+    ssh_key: '{{ inventory_dir }}/../files/keys/cesar.pub'
+    state: present
 
 developers: []
 
