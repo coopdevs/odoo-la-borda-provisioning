@@ -32,6 +32,8 @@ domains:
   - laborda.coopdevs.org
   - labordatest.coopdevs.org
 
+odoo_role_test_dbs: ["labordatest"]
+
 odoo_role_odoo_db_admin_password: !vault |
           $ANSIBLE_VAULT;1.1;AES256
           61343461386430366337343039303562386335303839386132323032663434323931333537646464
