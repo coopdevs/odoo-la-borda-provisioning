@@ -2,7 +2,7 @@
 erp.laborda.coop ansible_host=94.130.24.251
 
 [dev]
-local.odoo-laborda.coop
+odoo-laborda.local
 
 [odoo_servers:children]
 dev
