@@ -26,10 +26,10 @@ backups_role_enabled: true
 monitoring_enabled: false
 
 odoo_role_odoo_dbs:
-  - laborda
+  - erp
   - labordatest
 domains: 
-  - laborda.coopdevs.org
+  - erp.laborda.coop
   - labordatest.coopdevs.org
 
 odoo_role_test_dbs: ["labordatest"]
