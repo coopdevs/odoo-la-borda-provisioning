@@ -42,6 +42,7 @@ odoo11-addon-report-xlsx==11.0.1.0.2
 odoo11-addon-sale-order-invoicing-finished-task==11.0.1.0.0
 odoo11-addon-sale-order-line-input==11.0.1.0.0.99.dev3
 odoo11-addon-web-decimal-numpad-dot==11.0.1.0.2
+odoo11-addon-web-environment-ribbon==11.0.1.0.2.99.dev2
 odoo11-addon-web-favicon==11.0.1.0.0
 odoo11-addon-web-no-bubble==11.0.1.0.0
 odoo11-addon-web-responsive==11.0.1.0.2

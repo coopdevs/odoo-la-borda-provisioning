@@ -1,7 +1,7 @@
 NAME="odoo-laborda"
 DISTRIBUTION="ubuntu"
-RELEASE="xenial"
+RELEASE="focal"
 ARCH="amd64"
-HOST="local.$NAME.coop"
+HOST="$NAME.local"
 
 PYTHON_INTERPRETER=python3
