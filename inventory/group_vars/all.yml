@@ -120,9 +120,12 @@ odoo_role_channels: "root:2"
 odoo_role_demo_data: false
 
 # Odoo provisioning
-odoo_provisioning_version: "v0.6.9"
+odoo_provisioning_version: "v0.6.15"
 # Enable list_db while we don't change the backup strategy at odoo-provisioning
 odoo_role_list_db: true
+
+odoo_role_limit_time_cpu: 1200
+odoo_role_limit_time_real: 2400
 
 # Nginx configuration
 nginx_configs:
