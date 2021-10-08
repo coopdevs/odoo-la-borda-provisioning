@@ -13,6 +13,9 @@ system_administrators:
   - name: kon
     ssh_key: "{{ inventory_dir }}/../pub_keys/kon.pub"
     state: present
+  - name: daniquilez
+    ssh_key: "{{ inventory_dir }}/../pub_keys/daniquilez.pub"
+    state: present
 
 developers: []
 
